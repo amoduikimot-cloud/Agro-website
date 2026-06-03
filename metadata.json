@@ -1,0 +1,6 @@
+{
+  "name": "Agro-Bal",
+  "description": "Modern corporate branding website for Agro-Bal, an agricultural brand showcasing premium farm produce, livestock, tools, and supplies with pathways to its external Shopify store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
