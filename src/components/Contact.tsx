@@ -51,7 +51,7 @@ export default function Contact() {
     {
       title: "Immediate WhatsApp Chat",
       value: "Chat Live 24/7",
-      href: "https://wa.me/15553217298",
+      href: "https://wa.me/23465364656",
       color: "bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100/50",
       icon: MessageSquare,
       subtitle: "Answers within 10 minutes",
@@ -66,8 +66,8 @@ export default function Contact() {
     },
     {
       title: "Hotline Phone Link",
-      value: "+1 (555) 321-7298",
-      href: "tel:+15553217298",
+      value: "+23465364656",
+      href: "tel:+23465364656",
       color: "bg-sky-50 text-sky-800 border-sky-200 hover:bg-sky-100/50",
       icon: Phone,
       subtitle: "Technical farm support desk",

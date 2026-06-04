@@ -4,7 +4,6 @@ import About from "./components/About";
 import Categories from "./components/Categories";
 import ProductsPreview from "./components/ProductsPreview";
 import WhyChooseUs from "./components/WhyChooseUs";
-import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import CtaBanner from "./components/CtaBanner";
 import Contact from "./components/Contact";
@@ -46,9 +45,6 @@ export default function App() {
 
         {/* 6. Professional Advantages */}
         <WhyChooseUs />
-
-        {/* 7. Organic Gallery */}
-        <Gallery />
 
         {/* 8. Credentials Carousels */}
         <Testimonials />

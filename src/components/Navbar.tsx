@@ -27,7 +27,6 @@ export default function Navbar({ onContactClick }: NavbarProps) {
     { name: "Categories", href: "#categories" },
     { name: "Featured Products", href: "#products" },
     { name: "Why Us", href: "#why-choose-us" },
-    { name: "Gallery", href: "#gallery" },
     { name: "Testimonials", href: "#testimonials" },
   ];
 

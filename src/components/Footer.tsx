@@ -17,7 +17,6 @@ export default function Footer() {
     { name: "About Story", href: "#about" },
     { name: "Categories", href: "#categories" },
     { name: "Featured Feed", href: "#products" },
-    { name: "Gallery Images", href: "#gallery" },
   ];
 
   const footerLinksExtra = [
