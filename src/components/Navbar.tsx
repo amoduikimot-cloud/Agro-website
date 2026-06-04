@@ -63,16 +63,13 @@ export default function Navbar({ onContactClick }: NavbarProps) {
             className="flex items-center gap-2 group focus:outline-none animate-fade-in-up"
             id="nav-brand-logo"
           >
-            <div className="w-9 h-9 bg-[#2E7D32] rounded-lg flex items-center justify-center text-[#F6D776] font-bold italic shadow-sm group-hover:bg-[#7A4E2D] transition-colors duration-300 shrink-0">
-              <Sprout className="h-5 w-5 text-[#F6D776]" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-extrabold text-lg tracking-tight text-[#2E7D32] group-hover:text-[#7A4E2D] transition-colors duration-200">
-                AGRO-BAL
-              </span>
-              <span className="text-[9px] font-mono uppercase tracking-[0.15em] text-[#7A4E2D] font-bold opacity-80">
-                STRENGTH & PURITY
-              </span>
+            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-xs border border-[#2E7D32]/15 shrink-0">
+              <img
+                src="https://raw.githubusercontent.com/amoduikimot-cloud/Agro-bal-images/478827d83040c124b52d7a5f6a5fd29c1dc2c2e4/logo%20.jpg"
+                alt="Agro-Bal Logo"
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
           </a>
 

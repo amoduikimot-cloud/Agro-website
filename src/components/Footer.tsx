@@ -50,11 +50,15 @@ export default function Footer() {
           
           {/* Col 1: Brand Signature */}
           <div className="lg:col-span-4 space-y-4" id="footer-col-signature">
-            <div className="flex items-center space-x-2">
-              <div className="bg-[#2E7D32] text-[#F6D776] p-2 rounded-xl">
-                <Sprout className="h-5 w-5" />
+            <div className="flex items-center space-x-2.5">
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden border border-[#2E7D32]/10 shadow-xs shrink-0">
+                <img
+                  src="https://raw.githubusercontent.com/amoduikimot-cloud/Agro-bal-images/478827d83040c124b52d7a5f6a5fd29c1dc2c2e4/logo%20.jpg"
+                  alt="Agro-Bal Logo"
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
               </div>
-              <span className="font-display font-extrabold text-lg tracking-tight">Agro-Bal</span>
             </div>
             
             <p className="text-stone-300 font-sans font-light text-xs sm:text-sm leading-relaxed max-w-sm">
