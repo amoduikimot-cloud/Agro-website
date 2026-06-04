@@ -5,7 +5,7 @@ import { ShoppingBag, Star, HelpCircle, CheckCircle } from "lucide-react";
 export default function ProductsPreview() {
   const [activeTab, setActiveTab] = useState("All");
 
-  const categories = ["All", "Fresh Farm Produce", "Poultry & Livestock", "Farm Supplies"];
+  const categories = ["All", "Vitamin, Mineral & Supplies", "Poultry & Livestock", "Seeds, Agrochemical & Beekeeping", "Pet & Veterinary Equipment"];
 
   const filteredProducts = activeTab === "All"
     ? FEATURED_PRODUCTS

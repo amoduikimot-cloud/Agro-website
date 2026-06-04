@@ -6,7 +6,7 @@ export default function CtaBanner() {
       {/* Absolute background visual details */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/agrobal_hero_1780501310572.png"
+          src="https://raw.githubusercontent.com/amoduikimot-cloud/Agro-bal-images/1f9cf9c5e1c6535902fd66443eecac91c614a38d/1154%20(1).jpg"
           alt="Scenic farmland landscape"
           className="w-full h-full object-cover opacity-15 filter grayscale contrast-125"
           referrerPolicy="no-referrer"

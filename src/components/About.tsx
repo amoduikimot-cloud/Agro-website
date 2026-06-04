@@ -25,7 +25,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-24 bg-brand-cream relative overflow-hidden border-t border-brand-yellow/20">
+    <section id="about" className="py-24 bg-brand-cream relative overflow-hidden border-t border-[#2E7D32]/10">
       {/* Decorative leafy vectors background */}
       <div className="absolute right-0 top-0 w-64 h-64 bg-brand-yellow/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute left-0 bottom-0 w-80 h-80 bg-brand-green/5 rounded-full blur-3xl pointer-events-none" />
@@ -40,7 +40,7 @@ export default function About() {
               {/* Premium image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-yellow/30 bg-stone-100 aspect-4/3">
                 <img
-                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800"
+                  src="https://raw.githubusercontent.com/amoduikimot-cloud/Agro-bal-images/660d7d26afc3921c5cee00e5fcf40bfbd97310f1/4352303_737.jpg"
                   alt="Our Heritage Fields"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

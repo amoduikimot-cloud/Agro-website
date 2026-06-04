@@ -11,13 +11,13 @@ export default function Hero({ onLearnMoreClick }: HeroProps) {
       {/* Background Drone Farm Landscape Image with Dark Overlap */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/agrobal_hero_1780501310572.png"
+          src="https://raw.githubusercontent.com/amoduikimot-cloud/Agro-bal-images/1f9cf9c5e1c6535902fd66443eecac91c614a38d/1154%20(1).jpg"
           alt="Premium Farm Background"
           className="w-full h-full object-cover scale-[1.02] filter brightness-[0.75]"
           referrerPolicy="no-referrer"
         />
-        {/* Soft radial overlay with agricultural color tone */}
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-cream via-transparent to-black/35 opacity-90" />
+        {/* Rich dark forest green & vignette overlay to prevent high-brightness eye strain */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#162F1B] via-transparent to-black/40 opacity-85" />
       </div>
 
       {/* Floating circular ambient background glows */}
@@ -34,7 +34,7 @@ export default function Hero({ onLearnMoreClick }: HeroProps) {
         >
           <span className="flex h-2 w-2 rounded-full bg-[#F6D776] animate-ping" />
           <span className="text-[10px] font-mono tracking-[0.2em] uppercase font-extrabold text-[#F6D776]">
-            TRUSTED HARVEST LEGACY
+            100% PURE BIOLOGICAL EXCELLENCE
           </span>
         </motion.div>
 

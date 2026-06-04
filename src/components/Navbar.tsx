@@ -51,8 +51,8 @@ export default function Navbar({ onContactClick }: NavbarProps) {
       id="main-navbar"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-md border-b border-[#7A4E2D]/10 py-3"
-          : "bg-white/40 backdrop-blur-sm border-b border-[#7A4E2D]/5 py-4"
+          ? "bg-[#EDF3ED]/95 backdrop-blur-md shadow-md border-b border-[#2E7D32]/15 py-3"
+          : "bg-[#EDF3ED]/75 backdrop-blur-md border-b border-[#2E7D32]/10 py-4"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
